@@ -5,8 +5,8 @@
       "default": true
     }
   ],
-  "name": "CumulusCITrailhead",
-  "namespace": "",
+  "name": "Food-Bank",
+  "namespace": "fbccicsdg",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "54.0"
 }

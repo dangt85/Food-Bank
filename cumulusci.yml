@@ -1,8 +1,9 @@
 minimum_cumulusci_version: '3.60.0'
 project:
-    name: CumulusCITrailhead
+    name: Food-Bank
     package:
-        name: CumulusCITrailhead
+        name: Food-Bank
+        namespace: fbccicsdg
         api_version: '54.0'
     git:
         default_branch: 'main'
@@ -11,14 +12,14 @@ project:
 tasks:
     robot:
         options:
-            suites: robot/CumulusCITrailhead/tests
+            suites: robot/Food-Bank/tests
             options:
-                outputdir: robot/CumulusCITrailhead/results
+                outputdir: robot/Food-Bank/results
 
     robot_testdoc:
         options:
-            path: robot/CumulusCITrailhead/tests
-            output: robot/CumulusCITrailhead/doc/CumulusCITrailhead_tests.html
+            path: robot/Food-Bank/tests
+            output: robot/Food-Bank/doc/Food-Bank_tests.html
 
     run_tests:
         options:
