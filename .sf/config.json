@@ -1,3 +1,4 @@
 {
-  "target-dev-hub": "CCIDevHub"
+  "target-dev-hub": "CCIDevHub",
+  "target-org": "CumulusCITrailhead__qa"
 }
